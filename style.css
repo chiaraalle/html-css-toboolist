@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 
     margin: 0px;
     padding: 0px;
@@ -33,31 +33,48 @@ header{
 
 }
 
-.section {
-    height: ;
+.section,
+.option {
+    background-color: white;
 }
 
 .conteiner {
     width: 50%; 
     margin: 40px auto;
+
+}
+
+.button-1,
+.button-2 {
+    border-radius: 5px;
+    padding: 10px;
+
 }
 
 .button-1 {
     background-color: #47ADF1;
-    border-radius: 5px;
     color: white;
-    padding: 10px;
-
+    
 }
 
 .button-2 {
-    border-radius: 5px;
     color: lightslategray;
-    padding: 10px;
-    
+}
+
+.option {
+    margin-top: 5px;
 }
 
 .text {
     font-size: 20px;
     font-weight: bold;
+}
+
+.button-3 {
+    background-color: #47ADF1;
+    border-radius: 5px;
+    color: white;
+    padding: 5px; 
+    font-size: 11px;
+    
 }
