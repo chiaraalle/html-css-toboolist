@@ -16,7 +16,10 @@ header{
 }
 
 #logo {
-    width: 80px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #logo,
@@ -28,4 +31,33 @@ header{
     font-size: 40px;
     font-weight: bold;
 
+}
+
+.section {
+    height: ;
+}
+
+.conteiner {
+    width: 50%; 
+    margin: 40px auto;
+}
+
+.button-1 {
+    background-color: #47ADF1;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+
+}
+
+.button-2 {
+    border-radius: 5px;
+    color: lightslategray;
+    padding: 10px;
+    
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
 }
