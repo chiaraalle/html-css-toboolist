@@ -1,6 +1,4 @@
 * {
-    outline: 1px solid red;
-
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -20,16 +18,13 @@ header{
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-#logo,
-.title {
     vertical-align: middle;
 }
 
 .title {
     font-size: 40px;
     font-weight: bold;
+    vertical-align: middle;
 
 }
 
@@ -42,6 +37,7 @@ header{
 
  .section {
     padding: 20px;
+    border-bottom: 4px solid #F6F8F9;
 }
 
 .button-1,
@@ -66,12 +62,6 @@ header{
     margin-top: 40px;
 }
 
-
-.text {
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .circle  {
     border: 1px solid black;
     border-radius: 50px;
@@ -80,7 +70,7 @@ header{
 }
 
 
-.type {
+.box {
     background-color:  #47ADF1;
     color: white;
     border: 1px solid #47ADF1;
